@@ -1,3 +1,7 @@
+docker build -t jordiascension/my_angular_app:latest .
+docker login
+docker run --name angular-application -d -p 4201:80 jordiascension/my_angular_app
+
 # PensionPlanAngularModules
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
