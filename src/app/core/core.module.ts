@@ -10,9 +10,12 @@ import { FooterComponent } from './components/footer/footer.component';
     HeaderComponent,
     FooterComponent
   ],
+  //the set of NgModules whose exported components, directives or pipes 
+  //are used in the component templates of this module
   imports: [
     CommonModule
   ],
+  //A list of declarations and NgModules that an importing module can use
   exports: [
     HeaderComponent
   ]

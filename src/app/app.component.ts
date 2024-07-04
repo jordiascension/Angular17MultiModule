@@ -16,7 +16,7 @@ export class AppComponent {
   }
 
   async ngOnInit() {
-    
+    console.log(this.typescriptMarkdown);
     console.log(this.markdownService.parse('I am using __markdown__.'));
     this.file_name = await this.markdownService.parse('I am using __markdown__.');
   }

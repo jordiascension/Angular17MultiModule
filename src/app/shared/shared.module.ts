@@ -12,6 +12,10 @@ import { ModalComponent } from './components/modal/modal.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    SpinnerComponent,
+    ModalComponent
   ]
 })
 export class SharedModule { }
