@@ -17,7 +17,8 @@ import { FooterComponent } from './components/footer/footer.component';
   ],
   //A list of declarations and NgModules that an importing module can use
   exports: [
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ]
 })
 export class CoreModule { }
