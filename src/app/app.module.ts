@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MarkdownModule } from 'ngx-markdown';
+//import { MarkdownModule } from 'ngx-markdown';
 import { CoreModule } from './core/core.module';
 
 @NgModule({
@@ -13,8 +13,8 @@ import { CoreModule } from './core/core.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CoreModule,
-    MarkdownModule.forRoot()
+    CoreModule
+    //MarkdownModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
