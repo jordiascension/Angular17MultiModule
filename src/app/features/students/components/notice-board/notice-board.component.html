@@ -1,0 +1,14 @@
+<p>notice-board works!</p>
+<div>
+    <h1>{{title}}</h1>
+    <div class="board">
+      We are going to Mars. Do you want to join ?
+    </div>
+    <p></p>
+    <div>
+      <button id="yes-btn" (click)="sayYes()">Yes</button>
+      <button id="no-btn"
+              [disabled]="disableNoButton">No</button>
+              {{userResponse}}
+    </div>
+  </div>
